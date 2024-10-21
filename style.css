@@ -1,0 +1,143 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    background: #d6e7f9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    width: 90%; 
+    max-width: 400px; 
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+input {
+    text-align: center;
+    padding: 0.5rem;
+    width: 100%;
+    border: 2px solid #007BFF;
+    border-radius: 30% 20%;
+    margin-bottom: 1rem;
+}
+
+button {
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#message {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 1.5rem; 
+    }
+
+    h1 {
+        font-size: 1.8rem; 
+    }
+
+    label {
+        font-size: 1.2rem; 
+    }
+
+    input {
+        font-size: 1rem; 
+    }
+
+    button {
+        font-size: 1rem; 
+    }
+
+    #message {
+        font-size: 1rem; 
+    }
+}
+
+@media (max-width: 425px) {
+    .container {
+        padding: 1rem; 
+    }
+
+    h1 {
+        font-size: 1.6rem; 
+    }
+
+    label {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 375px) {
+    h1 {
+        font-size: 1.4rem; 
+    }
+
+    label {
+        font-size: 0.9rem; 
+
+    }
+
+    input {
+        font-size: 0.9rem; 
+    }
+
+    button {
+        font-size: 0.9rem; 
+    }
+
+    #message {
+        font-size: 0.9rem; 
+    }
+}
+
+@media (max-width: 320px) {
+    h1 {
+        font-size: 1.2rem; 
+    }
+
+    label {
+        font-size: 0.8rem; 
+    }
+
+    input {
+        font-size: 0.9rem; 
+    }
+    button {
+        font-size: 0.8rem;
+    }
+
+    #message {
+        font-size: 0.8rem; 
+    }
+}
